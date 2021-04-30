@@ -14,5 +14,5 @@ switch (action.type) {
         return {...state, isLoading: false, errMess: action.payload};
     default:
         return state;
-}
+    }
 };
